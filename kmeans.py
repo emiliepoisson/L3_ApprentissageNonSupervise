@@ -1,3 +1,7 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 from kneed import KneeLocator
 from sklearn.datasets import make_blobs
 from sklearn.cluster import KMeans
